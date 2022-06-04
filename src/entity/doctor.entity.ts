@@ -25,3 +25,4 @@ export class Doctor {
   @OneToMany((type) => Schedule, (schedule) => schedule.patient)
   schedule: Schedule[] | undefined;
 }
+// doctor
