@@ -12,6 +12,6 @@ export class Account {
   @Column('char', { length: 100 })
   password: string | undefined;
 
-  @Column('char', { length: 100 })
+  @Column('char', { length: 100, nullable: true })
   refreshToken: string | undefined;
 }

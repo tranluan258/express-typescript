@@ -7,7 +7,7 @@ export class Patient {
   @PrimaryColumn('char', { length: 50 })
   email: string | undefined;
 
-  @Column({ type: 'varchar', length: 50, charset: 'utf-8' })
+  @Column({ type: 'varchar', length: 50 })
   name: string | undefined;
 
   @Column('int')
